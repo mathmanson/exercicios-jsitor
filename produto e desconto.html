@@ -1,0 +1,21 @@
+<!doctype html><html><head></head><body><script type="text/javascript">//entrada
+var produto = prompt("Digite o nome do produto: ")
+var preço = prompt("Digite o valor do produto: ")
+var quant = prompt("Digite a quantidade que deseja: ")
+
+//converter em número
+preço = Number(preço)
+quant = Number(preço)
+totalBruto = Number(totalBruto)
+valorDesc = Number(valorDesc)
+totalLiq = Number(totalLiq)
+
+//cálculos
+var desconto = 0.05
+var totalBruto = (preço * quant)
+var valorDesc = (totalBruto * desconto)
+var totalLiq = (totalBruto - valorDesc)
+
+//Saída
+console.log("Por ser cliente cadastrado, você tem 5 por cento de desconto."
++ "\n Total a pagar: " + produto + " ------ " + totalLiq + " reais." )</script></body><html>

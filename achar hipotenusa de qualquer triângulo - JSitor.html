@@ -1,0 +1,37 @@
+<!doctype html><html><head></head><body><script type="text/javascript">//**************************
+//Matheus Borda Tec em Desenv de Sis
+//21/03/23
+//**************************
+
+//Exercícios
+//1-Pergunte ao usuário sua idade e imprima o ano de nascimento
+//2-Pergunte ao usuário de um e-commerce o nome do produto que está comprando
+//o valor e a quantidade. informe o valor total a pagar.
+//3-Pergunte ao usuário o comprimento dos catetos de um triângulo retângulo
+//e informe o valor da hipotenusa.
+
+
+ //Entrada - 3
+var numero1 = prompt("Digite o valor do cateto oposto: ")
+var numero2 = prompt("Digite o valor do cateto adjacente: ")
+numero1 = Number(numero1)
+numero2 = Number(numero2)
+
+//Cáculo
+//Multi
+var multi1 = numero1 * numero1
+var multi2 = numero2 * numero2
+
+//Soma
+var soma = multi1 + multi2
+
+//Raiz quadrada
+var hipotenusa = Math.sqrt(soma)
+
+//Saída
+
+console.log("Usando a fórmula do Teorema de Pitágoras para determinar a hipotenusa:" + 
+"\nO valor da hipotenusa é E " + hipotenusa + ".")
+
+
+</script></body><html>

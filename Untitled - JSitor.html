@@ -1,0 +1,14 @@
+<!doctype html><html><head></head><body><script type="text/javascript">var janelaFechada1 = false
+var janelaFechada2 = false
+var janelaFechada3 = false
+var janelaFechada4 = false
+
+var todasJanelasFechadas = janelaFechada1 && janelaFechada2 && janelaFechada3 && janelaFechada4
+var todasJanelasAbertas = !janelaFechada1 && !janelaFechada2 && !janelaFechada3 && !janelaFechada4
+var temJanelasFechadas = janelaFechada1 || janelaFechada2 || janelaFechada3 || janelaFechada4
+var temJanelasAbertas = !janelaFechada1 || !janelaFechada2 || !janelaFechada3 || !janelaFechada4
+
+console.log("Todas as janelas estão fechadas? " + todasJanelasFechadas)
+console.log("Todas as janelas estão abertas? " + todasJanelasAbertas)
+console.log("Tem janelas fechadas? " + temJanelasFechadas)
+console.log("Tem janelas abertas? " + temJanelasAbertas)</script></body><html>
